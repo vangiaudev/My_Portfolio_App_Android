@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Portfolio App</string>
+    <string name="about_me">Blends academic knowledge both web development and algorithm usage and application. Applying the experiences as well as the language skills of PHP, HTML, CSS .... learned in the school to become a Web Developer brings practical values. Contribute to the growing company, always keeping updated with the most recent technologies and always seeking to improve and grow as a professional and as a person. </string>
+    <string name="job_name">Fullstack Developer &amp; Programmer</string>
+    <string name="current_job">Coder &amp; working from home do freelance projects. Improve self-study by doing projects every day and combine the knowledge at school to apply in real projects</string>
+    <string name="name">I am Giau Nguyen</string>
+    <string name="current_job_post">Current Job Post</string>
+    <string name="degree">Software Engineer</string>
+    <string name="education">HoChiMinh University of Pedagogy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="summary">I am a hands-on, highly competent software engineer who passionate about Web and Mobile. Also I am keen to learn more about modern software development techniques and languages to adapt the future of software development. I am continually evaluating and upgrading my skills so that I can stay at the cutting edge of Web/Software development.</string>
+    <string name="skill">I can handle multiple tasks at once and be able to complete assigned tasks on time. I always go to work on time and finish on time and have team work experience</string>
+</resources>
