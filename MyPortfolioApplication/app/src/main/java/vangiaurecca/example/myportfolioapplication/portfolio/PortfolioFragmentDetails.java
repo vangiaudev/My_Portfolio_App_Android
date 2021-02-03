@@ -57,6 +57,8 @@ public class PortfolioFragmentDetails extends BottomSheetDialogFragment {
 
     void loadPortfolioData(PortfolioItem item){
         Glide.with(getContext()).load(item.getImage()).into(imgPortfolio);
+        txtTitle.setText(item.getTitle());
+        txtDesc.setText(item.getDescription());
 
     }
 }

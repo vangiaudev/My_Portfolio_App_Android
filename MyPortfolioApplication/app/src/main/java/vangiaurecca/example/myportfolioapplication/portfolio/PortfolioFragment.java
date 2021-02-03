@@ -50,12 +50,12 @@ public class PortfolioFragment extends Fragment implements PortfolioCallback{
         //create a list of portfolio item
         mdata = new ArrayList<>();
 
-        mdata.add(new PortfolioItem((R.drawable.project_winform), "Student Management", "The project is written in the C# programming language in conjunction with the use of SQL database"));
-        mdata.add(new PortfolioItem((R.drawable.project_blog), "Personal Blog", "Combination of HTML, CSS and Javascript"));
-        mdata.add(new PortfolioItem((R.drawable.project_game_animal), "Game Racing Animal", "Mini game on Android"));
-        mdata.add(new PortfolioItem((R.drawable.project_mc), "Website Manchester City Demo", "Combination of HTML, CSS"));
-        mdata.add(new PortfolioItem((R.drawable.project_cpp), "Employees Management", "The project is written in the C++ programming language"));
-        mdata.add(new PortfolioItem((R.drawable.project_shopee), "Website Shopee Demo", "Combination of HTML, CSS"));
+        mdata.add(new PortfolioItem((R.drawable.project_winform), "Student Management", "Language: C# (80%), SQL (20%)\nThe project is written in the C# programming language in conjunction with the use of SQL database"));
+        mdata.add(new PortfolioItem((R.drawable.project_blog), "Personal Blog", "Language: HTML (85%), CSS (15%)\n A portfolio is designed on website platform"));
+        mdata.add(new PortfolioItem((R.drawable.project_game_animal), "Game Racing Animal", "Language: Java (100%)\nRacing Animal is based on the game Animal Crossing, but has removed some parts to make the game lighter"));
+        mdata.add(new PortfolioItem((R.drawable.project_mc), "Website Manchester City Demo", "Language: HTML (60%), CSS (40%)\nDesign a website part according to Manchester City is interface\""));
+        mdata.add(new PortfolioItem((R.drawable.project_graph_theory), "Employees Management", "Language: C++ (100%)\nDemo some Graph Theory algorithm such as Dijkstra, Ford-Bellman, Hamilton, Euler etc. Using WINBGI graphics"));
+        mdata.add(new PortfolioItem((R.drawable.project_shopee), "Website Shopee Demo", "Language: HTML (40%), CSS (40%), Javascript (20%)\nDesign a website part according to Shopee's interface"));
 
         portfolioAdapter = new PortfolioAdapter(mdata, this);
 
